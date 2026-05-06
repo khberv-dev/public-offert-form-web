@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.agreement-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+}
+
+.input-captcha-container {
+    display: flex;
+    gap: 8px;
+}
+
+.input-address-text {
+    font-size: 10pt;
+}
+
+.input-address-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
