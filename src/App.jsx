@@ -59,7 +59,7 @@ function App() {
     <div>
       <center>
         <Document file={"/public_offer.pdf"}>
-          {[1, 2, 3, 4].map((page) => (
+          {[1, 2, 3, 4, 5, 6, 7].map((page) => (
             <>
               <Page
                 pageNumber={page}
